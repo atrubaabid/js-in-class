@@ -85,7 +85,6 @@
 //   }
 // }
 
-
 // for(var i=0; i<nestedarr.length; i++){
 //     console.log(i+ "fffffffffffffff")
 //     for(var j=0; j<nestedarr[i].length; j++){
@@ -94,3 +93,15 @@
 //     }
 // }
 
+var Q = ["whats your name", "whats your father name", "whats your age"];
+var A = ["Atruba", "abid", 20];
+for (i = 0; i < Q.length; i++) {
+  var user = prompt(Q[i]);
+  for (j = 0; j < A.length; j++) {
+    if (user.toLowerCase() === A[i].toLowerCase()) {
+      console.log("correct");
+    } else {
+      console.log("wrong");
+    }
+  }
+}
