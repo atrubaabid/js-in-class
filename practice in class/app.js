@@ -93,15 +93,64 @@
 //     }
 // }
 
-var Q = ["whats your name", "whats your father name", "whats your age"];
-var A = ["Atruba", "abid", 20];
-for (i = 0; i < Q.length; i++) {
-  var user = prompt(Q[i]);
-  for (j = 0; j < A.length; j++) {
-    if (user.toLowerCase() === A[i].toLowerCase()) {
-      console.log("correct");
-    } else {
-      console.log("wrong");
-    }
-  }
-}
+// var Q = ["whats your name", "whats your father name", "whats your age"];
+// var A = ["Atruba", "abid", 20];
+// for (i = 0; i < Q.length; i++) {
+//   var user = prompt(Q[i]);
+//   for (j = 0; j < A.length; j++) {
+//     if (user.toLowerCase() === A[i].toLowerCase()) {
+//       console.log("correct");
+//     } else {
+//       console.log("wrong");
+//     }
+//   }
+// }
+
+// var password = "abcdefghjklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()"
+// for(var i=0; i<=10; i++){
+
+// }
+
+// var date = new Date
+// console.log(date);
+
+// var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+// var now = new Date();
+// var theDay = now.getDay();
+// var nameOfToday = dayNames[theDay];
+// console.log(nameOfToday);
+// console.log(getDay());
+
+// console.log("atruba".charAt());
+
+// let num = "123 " + 123;
+
+// console.log(num.charAt(5));
+// console.log(num);
+
+// let num = +prompt("enter any num");
+// console.log(num+=10)
+// console.log(num-=10)
+// console.log(num/=10)
+// console.log(num%=10)
+// console.log(num*=10)
+
+// GETs MEthods CHapter 32
+// let currentDate = new Date();
+// console.log("Current Day"+currentDate.getDay());
+// console.log("Current Month"+currentDate.getMonth());
+// console.log("Current Date"+currentDate.getDate());
+// console.log("Current Year"+currentDate.getFullYear());
+// console.log("Current Hour"+currentDate.getHours());
+// console.log("Current Minutes"+currentDate.getMinutes());
+// console.log("Current Second"+currentDate.getSeconds());
+// console.log("Current "+currentDate.getTime());
+// console.log("Current "+currentDate.getMilliseconds());
+// console.log(currentDate.getTimezoneOffset());
+
+// Project
+// DigitalClock
+setInterval(() => {
+  document.getElementById("clockData").textContent =
+    new Date().toLocaleTimeString();
+}, 1000);
