@@ -1,4 +1,6 @@
 // CHAP 49 READING FIELD VALUES
+// =========================================================================================================================
+
 
 
 // function checkAddress(fieldId) {
@@ -12,6 +14,8 @@
 
 
 // CHAP 50 Setting FIELD VALUES
+// =========================================================================================================================
+
 
 // function fillCity() {
 
@@ -58,11 +62,7 @@
 
 
 //  CHAP 51 Reading and setting paragraph text
-
-
-
-
-
+// =========================================================================================================================
 
 
 // function more(){
@@ -84,10 +84,63 @@
 // function more(){
 //     let para = document.getElementById("par").innerHTML;
 //     document.getElementById('para').innerHTML = para
-    
-    
-  
+
+
+
 // }
 
 
 
+
+// CHAP 52 Manipulating images and text
+// =========================================================================================================================
+
+
+
+// function rem(){
+//     document.querySelector("#html").classList.add("remove");
+
+// }
+
+
+// function big(){
+//   let para=  document.querySelector(".para");
+//   para.style.backgroundColor = "green";
+// }
+
+
+// function big(){
+//     document.querySelector("#para").classList.add("big")
+//     document.querySelector("#para").classList.remove("para")
+
+// }
+
+
+
+// CHAP 53 Swapping images
+
+// =========================================================================================================================
+
+// function swap() {
+//     document.querySelector("#before").src = "2.jpg"
+// }
+
+// function swapout(){
+//     document.querySelector("#before").src = "1.jpg"
+
+// }
+
+
+
+// function newswap(imgid, imgsrc) {
+//     document.querySelector( "#"+ imgid).src = imgsrc;
+// }
+
+// function newswap2(imgid, imgsrc) {
+//     document.querySelector( "#" + imgid).src = imgsrc;
+// }
+
+
+
+//  CHAP 54 Swapping images and setting classes -->
+//  ==========================================================================================================
