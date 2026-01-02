@@ -144,3 +144,7 @@
 
 //  CHAP 54 Swapping images and setting classes -->
 //  ==========================================================================================================
+
+// let gpt = document.querySelector("#gpt");
+// let result = gpt.href;
+// console.log(result);
