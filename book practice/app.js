@@ -148,3 +148,60 @@
 // let gpt = document.querySelector("#gpt");
 // let result = gpt.href;
 // console.log(result);
+
+
+//  CHAP 55 Setting styles -->
+// <!-- ========================================================================================================== -->
+
+// function big(){
+//     document.querySelector("#para").style.fontSize = "3rem";
+//     document.querySelector("#para").style.backgroundColor = "Green";
+//     document.querySelector("#para").style.color = "white";
+// }
+
+// function reset(){
+//       document.querySelector("#para").style.fontSize = "1rem";
+//     document.querySelector("#para").style.backgroundColor = "white";
+//     document.querySelector("#para").style.color = "purple";
+// }
+
+
+
+// FOR INLINE STYLING
+
+// let margin = document.querySelector("#para").style.margin;
+// console.log(margin);
+
+
+// FOR CSS FILE STYLE
+
+// let mar = window.getComputedStyle(
+//     document.querySelector("#para")
+// ).margin
+
+// console.log(mar);
+
+
+
+//  <!-- CHAP 56 Target all elements by tag name -->
+// <!-- ========================================================================================================== -->
+
+
+let para = document.getElementsByTagName("p");
+// para[4].innerText = "MORNING"
+
+for (i = 0; i < para.length; i++) {
+
+    para[i].innerText = para[i].innerText + " EVENING " + i;
+    para[i].style.backgroundColor = "#"+i+1+2+i+8+9;
+    para[i].style.color = "white";
+
+
+}
+
+
+
+
+
+
+
