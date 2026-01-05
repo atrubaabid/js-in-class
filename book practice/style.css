@@ -1,6 +1,6 @@
-*{
+/* *{
     margin: 20px;
-}
+} */
     
     
     
@@ -32,4 +32,10 @@
 /* #para{
     margin: 20px 0px 0px 20px;
 } */
+
+
+
+#box{
+    background-color: aqua;
+}
 

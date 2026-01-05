@@ -368,8 +368,51 @@
 
 
 
-    //         <!-- CHAP 66 Attribute names and values-->
-    // <!-- ========================================================================================= -->
+//             <!-- CHAP 66 Attribute names and values-->
+//     <!-- ========================================================================================= -->
+
+
+//     let p = document.querySelector("#p1").attributes;
+//     console.log(p.length);
+//     console.log(p[3].nodeName);
+//     console.log(p[3].nodeValue);
+    
+
+// <!-- CHAP 67 Adding nodes-->
+// <!-- ========================================================================================= -->
+
+// let el = document.createElement("p");
+// el.setAttribute("class", "para");
+// el.innerText = "Hello"
+// let box = document.querySelector("#box");
+// box.append(el)
+// el.remove();
+
+// box.prepend(el)
+
+// box.after(el);
+// box.before(el);
+
+
+
+//  <!-- CHAP 68 Inserting nodes-->
+// <!-- ========================================================================================= -->
+
+
+// A METHODS ARE OLD LIKE THESE
+
+// box.append(el)
+// el.remove();
+
+// box.prepend(el)
+
+// box.after(el);
+// box.before(el);
+
+    
+
+
+
 
 
 
